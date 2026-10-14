@@ -29,5 +29,5 @@
   <text x="744" y="290" fill="#a5a3b8" font-size="16" font-weight="600" text-anchor="middle">Record, stream and clip</text>
   <!-- Rule -->
   <rect x="48" y="332" width="864" height="44" rx="12" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.5)"/>
-  <text x="480" y="360" fill="#fca5a5" font-size="17" font-weight="700" text-anchor="middle">Never run your overlay on the main PC</text>
+  <text x="480" y="360" fill="#fca5a5" font-size="17" font-weight="700" text-anchor="middle">Never record, stream or show the overlay on the main PC</text>
 </svg>

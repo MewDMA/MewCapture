@@ -6,7 +6,7 @@ MewCapture runs as admin on both PCs, because it adds a firewall rule so the oth
 
 On the main PC MewCapture only captures the screen or the game window, the same way Discord streaming does, with Windows Graphics Capture or DXGI desktop duplication. It never injects anything into the game, never puts a DLL in it, never hooks it and never reads its memory. For the keys and mouse overlay it only asks Windows which keys are held down, like any app can.
 
-Your overlay never runs on the main PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC. If the app sees a window on the main PC that looks like an overlay, it warns you in red.
+Your main PC is never the recording or streaming PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC, and so do the projector, OBS, recording and streaming. Don't send the overlay or MewCapture's output back to the main PC to put your game under it there. MewCapture shows a red warning when its output or the projector runs on a PC with an anti-cheat, and when OBS or another streaming app runs on your main PC.
 
 ## Your network
 

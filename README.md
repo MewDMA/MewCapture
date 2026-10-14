@@ -35,7 +35,7 @@ The game goes directly from the screen into your graphics card's video encoder a
 <td valign="top">
 
 **Your overlay, safely**<br>
-Your overlay only ever runs on the second PC, we remove its background for you and warn you if an overlay shows up on the main PC
+Your overlay only ever runs on the second PC and we remove its background for you. If MewCapture's output, the projector or OBS ends up on the main PC, you get a red warning
 
 </td>
 <td valign="top">
@@ -93,7 +93,7 @@ Checks both PCs and the connection, tells you what's off and how to fix it and m
 
 1. Download the installer from <a href="https://github.com/MewDMA/MewCapture/releases/latest">releases</a> and install it on **both** PCs
 2. Run it. Windows might say "Windows protected your PC", click More info then Run anyway. That's just because the app isn't code signed yet
-3. Open MewCapture, it asks for admin so it can open the firewall for the other PC. Your overlay only goes on the second PC, never on the main PC
+3. Open MewCapture, it asks for admin so it can open the firewall for the other PC. Your overlay, recording and streaming only go on the second PC, never on the main PC
 
 ---
 

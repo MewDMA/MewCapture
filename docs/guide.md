@@ -2,7 +2,7 @@
 
 Made from `app/src/guide-data.ts`, the same steps and pictures as the Guide screen in the app. Edit that file, then run `node scripts/guide-md.mjs` in `app/`.
 
-> **Never run your overlay on the main PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so your overlay only ever runs on the second PC and MewCapture puts it on the video there. If we see something on the main PC that looks like an overlay we warn you in red, so close it right away. MewCapture only captures the screen like Discord does and never touches the game.**
+> **Your main PC is never the recording or streaming PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC. Record, stream and use the projector or OBS there too, and never send the overlay or MewCapture's output back to the main PC to put your game under it. MewCapture warns you in red if it sees that.**
 
 ## Step by step
 
@@ -72,15 +72,19 @@ Press the clip hotkey on either PC to save the last 30 seconds to 2 minutes, wit
 
 ![Clip That](screenshots/clips.png)
 
-## The overlay never goes on the main PC
+## The main PC only plays and sends the game
 
-Never run your overlay on the main PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so your overlay only ever runs on the second PC and MewCapture puts it on the video there. If we see something on the main PC that looks like an overlay we warn you in red, so close it right away. MewCapture only captures the screen like Discord does and never touches the game.
+Your main PC is never the recording or streaming PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC. Record, stream and use the projector or OBS there too, and never send the overlay or MewCapture's output back to the main PC to put your game under it. MewCapture warns you in red if it sees that.
 
 MewCapture only captures the screen the same way Discord streaming does, with Windows Graphics Capture or DXGI desktop duplication. It never injects into or hooks the game, never puts a DLL in it and never reads its memory, which is also why there's no OBS style game capture hook.
 
 The main PC only sends the game, and everything else like scenes, the overlay, your webcam, clips, recording and streaming happens on the second PC.
 
-![The overlay never goes on the main PC](screenshots/safety.svg)
+Some people try to save the second PC some work by sending the overlay back to the main PC, or by running the projector or OBS on the main PC and putting the game under the overlay there. That puts your overlay on the main PC's screen, right where anti-cheats look.
+
+So MewCapture shows a red warning when its output or the projector runs on a PC with an anti-cheat, and when OBS or another streaming app runs on your main PC. Close it there and record or stream on the second PC.
+
+![The main PC only plays and sends the game](screenshots/safety.svg)
 
 ## Direct cable, the lightest setup
 
