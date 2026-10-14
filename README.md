@@ -69,7 +69,7 @@ Pick a preset for YouTube, Twitch, Low impact or Clips only, and go live on Twit
 <td valign="top">
 
 **Mixer**<br>
-Meters, mute and push to talk, with the game, your mic and Discord on their own tracks in recordings
+Meters and mute for every source, add any app on the second PC, and keep any source on its own track or in its own file
 
 </td>
 </tr>

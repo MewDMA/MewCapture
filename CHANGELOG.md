@@ -2,6 +2,20 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.4
+
+- Start guide on Home: pick main PC or second PC and it walks you through the setup, picking the encoder, quality, scenes and sound for you.
+- The safety popup now shows the first time you pick main PC or second PC too, not only when you switch.
+- No more "couldn't find a video encoder" while it's sending fine. It checks NVIDIA NVENC, AMD AMF, Intel QuickSync (built-in graphics) and the CPU, and shows which one it uses.
+- The projector is always fullscreen. Its bar shows when you hover near the top edge and hides when you move away, and Minimize moves it out of your way while OBS keeps getting it.
+- Set up OBS for me handles every case: OBS not installed (we link to obsproject.com), closed, open with or without WebSocket, live or recording, and a MewCapture scene collection that's already there. It never changes your other scene collections.
+- Send the sound to OBS without playing it on the second PC's speakers.
+- The mixer on the second PC takes any app as a source. You can rename everything and keep any source in the mix, on its own track or in its own file. Push to talk and the second PC mic are gone, the mic comes from the main PC.
+- Scenes have a sharp preview in the right shape, and the lock only locks. Switch scenes automatically is gone.
+- Chat can pop out into its own window or dock to the side of MewCapture.
+- Every dropdown looks like the rest of the app.
+- Removed Start receiving when MewCapture opens, Forget them and the Network section. Getting the game shows its numbers right in the status line.
+
 ## v1.0.3
 
 - The old overlay warning is gone, it also went off for things like Snipping Tool. The red warning now only shows when the second PC's output comes back to the main PC: MewCapture's output or the projector on a PC with an anti-cheat, or OBS on the main PC with the projector, NDI or a stream from the second PC in it. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC.

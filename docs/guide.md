@@ -8,7 +8,7 @@ Made from `app/src/guide-data.ts`, the same steps and pictures as the Guide scre
 
 ### Step 1: Install MewCapture (both PCs)
 
-Download MewCapture-Setup from the MewCapture releases page and install it on both PCs, then open it and pick which PC it is. It remembers that for next time.
+Download MewCapture-Setup from the MewCapture releases page and install it on both PCs, then open it and pick which PC it is. Start guide on Home walks you through the rest and picks good settings for you.
 
 ![Install MewCapture](screenshots/home.png)
 
@@ -56,7 +56,7 @@ Add your webcam (you can blur or remove its background), images, text, a countdo
 
 ### Step 9: Set the sound (second PC)
 
-In Audio you set each volume with the meters, mute what you don't want, turn on your mic or push to talk and pick where the game sound goes, into MewCapture's recording or out for OBS.
+In Audio you set each volume with the meters, mute what you don't want, rename anything and pick if recordings keep it in the mix, on its own track or in its own file. Add a source adds the sound of any app on this PC, and the mic comes from the main PC with Send my mic too.
 
 ![Set the sound](screenshots/mixer.png)
 
@@ -100,13 +100,11 @@ If a PC has no spare Ethernet port, a USB to Ethernet adapter works fine. Plug i
 
 The easiest way is to press Set up OBS for me in Output, then pick Scene Collection and MewCapture in OBS. It already has the projector and its sound in it.
 
-To do it yourself, turn on Using OBS? Open the projector window in Output, then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
+To do it yourself, turn on Using OBS? Open the projector window in Output, then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. The projector always opens fullscreen. Hover near the top to minimize it so it's not blocking your screen, OBS keeps getting it. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
 
-For the sound, go to Audio and pick For OBS under Game Sound in MewCapture, then add an Application Audio Capture in OBS and pick the same MewCapture Projector window. Turn off Also play on my speakers if you don't want to hear it on this PC.
+For the sound, turn on Send the sound to OBS in Output, then add a Media Source in OBS, untick Local File and put udp://127.0.0.1:47811 as the input. Set up OBS for me adds it for you. Turn off Also play the sound on this PC's speakers if you only want it in OBS.
 
-If Windows on your PC can't do that without playing it, we tell you and play the sound on your speakers too so OBS still gets it, then you can just mute your speakers in Windows.
-
-Add your mic and browser sources in OBS like you normally would, or use MewCapture's own Record and Go live since those already have them.
+Add your browser sources in OBS like you normally would. The main PC mic comes with the sound when Send my mic too is on there.
 
 ![Using OBS on the second PC](screenshots/game-sound.png)
 
@@ -127,7 +125,7 @@ Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutte
 ## Questions
 
 **What can the hotkeys do?**<br>
-Clip That, a clean clip, switching scenes, push to talk and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
+Clip That, a clean clip, switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
 
 **Can I run my overlay on the main PC?**<br>
 No, never. Anti-cheats screenshot the main PC and scan it, also with AI, for things like ESP, so the overlay only runs on the second PC.
@@ -154,4 +152,4 @@ Drag How much gets removed. If your overlay lets you pick its background color, 
 That's the network, so use a cable or pick Smooth as the quality on the main PC. MewCapture also lowers the quality for you when packets get lost.
 
 **How do I get it in OBS?**<br>
-Turn on Using OBS? Open the projector window in Output, then add a Window Capture of MewCapture Projector. For the sound pick For OBS under Game Sound, then add an Application Audio Capture of the same window. You can also skip OBS and just press Record or Go live.
+Press Set up OBS for me in Output. If OBS is closed we add a scene collection called MewCapture you pick under Scene Collection. If OBS is open with its WebSocket on, we add it straight away, unless you're live or recording. With the WebSocket off you restart OBS once. We never change your other scene collections, and if OBS isn't installed we link you to obsproject.com instead of installing it.
