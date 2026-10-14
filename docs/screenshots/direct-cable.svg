@@ -1,21 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Inter, Segoe UI, sans-serif">
-  <rect width="640" height="300" rx="16" fill="#10101a"/>
-  <g fill="none" stroke="#a5a3b8" stroke-width="2">
-    <rect x="40" y="70" width="150" height="110" rx="10"/><rect x="450" y="70" width="150" height="110" rx="10"/>
-    <path d="M95 180v20h40v-20M505 180v20h40v-20"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="Inter, Segoe UI, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="bg" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#1d1730"/><stop offset="1" stop-color="#08080d"/></radialGradient>
+  </defs>
+  <rect width="960" height="360" rx="24" fill="url(#bg)"/>
+  <!-- PCs -->
+  <g>
+    <rect x="72" y="60" width="150" height="210" rx="16" fill="#10101a" stroke="#1e1d2e" stroke-width="2"/>
+    <rect x="96" y="90" width="102" height="10" rx="5" fill="#2a2340"/>
+    <rect x="96" y="112" width="102" height="10" rx="5" fill="#2a2340"/>
+    <rect x="176" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#a78bfa" stroke-width="2.5"/>
+    <text x="147" y="300" fill="#e7e7ee" font-size="20" font-weight="700" text-anchor="middle">Main PC</text>
+    <text x="147" y="326" fill="#a5a3b8" font-size="15" text-anchor="middle">spare network port</text>
   </g>
-  <text x="115" y="118" fill="#e7e7ee" font-size="18" font-weight="700" text-anchor="middle">Main PC</text>
-  <text x="115" y="142" fill="#a5a3b8" font-size="13" text-anchor="middle">gaming</text>
-  <text x="525" y="118" fill="#e7e7ee" font-size="18" font-weight="700" text-anchor="middle">Second PC</text>
-  <text x="525" y="142" fill="#a5a3b8" font-size="13" text-anchor="middle">overlay, recording</text>
-  <path d="M190 150 C 300 150, 340 150, 450 150" stroke="#f472b6" stroke-width="5" fill="none"/>
-  <rect x="300" y="138" width="40" height="24" rx="4" fill="#f472b6"/>
-  <text x="320" y="128" fill="#f472b6" font-size="14" font-weight="600" text-anchor="middle">Ethernet cable</text>
-  <text x="320" y="186" fill="#a5a3b8" font-size="12" text-anchor="middle">169.254.x.x, found by itself</text>
-  <path d="M115 70V40h-40" stroke="#a78bfa" stroke-width="3" fill="none"/>
-  <text x="70" y="36" fill="#a78bfa" font-size="12" text-anchor="end">internet</text>
-  <text x="70" y="52" fill="#a78bfa" font-size="12" text-anchor="end">(Wi-Fi or router)</text>
-  <rect x="600" y="140" width="22" height="20" rx="3" fill="#a78bfa"/>
-  <text x="525" y="232" fill="#e7e7ee" font-size="13" text-anchor="middle">No spare port? A USB to Ethernet</text>
-  <text x="525" y="250" fill="#e7e7ee" font-size="13" text-anchor="middle">adapter works, usually on this PC</text>
+  <g>
+    <rect x="738" y="60" width="150" height="210" rx="16" fill="#10101a" stroke="#1e1d2e" stroke-width="2"/>
+    <rect x="762" y="90" width="102" height="10" rx="5" fill="#2a2340"/>
+    <rect x="762" y="112" width="102" height="10" rx="5" fill="#2a2340"/>
+    <rect x="754" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#f472b6" stroke-width="2.5"/>
+    <text x="813" y="300" fill="#e7e7ee" font-size="20" font-weight="700" text-anchor="middle">Second PC</text>
+    <text x="813" y="326" fill="#a5a3b8" font-size="15" text-anchor="middle">spare network port</text>
+  </g>
+  <!-- Cable -->
+  <path d="M206 225 C 360 225, 360 150, 480 150 S 600 225, 754 225" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round"/>
+  <rect x="352" y="96" width="256" height="40" rx="20" fill="#10101a" stroke="#1e1d2e"/>
+  <text x="480" y="122" fill="#e7e7ee" font-size="17" font-weight="700" text-anchor="middle">Any Ethernet cable</text>
+  <text x="480" y="296" fill="#a5a3b8" font-size="15" text-anchor="middle">Your internet stays on your router</text>
+  <text x="480" y="322" fill="#4ade80" font-size="15" font-weight="600" text-anchor="middle">✓ MewCapture finds it and uses it by itself</text>
 </svg>

@@ -2,6 +2,20 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.2
+
+- On first launch MewCapture asks if this is your main PC or your second PC, and Get Started only shows the steps for that PC. You can switch it later in Updates and About.
+- The second PC has a big Pick your overlay window button right on its screen. It shows your open windows with a picture of each, removes the background for you and shows a live preview with the slider under it.
+- The projector window is now only for OBS. It's off unless you turn on Using OBS? Open the projector window, and recording, streaming and Clip That work without it. When it's open and no game is coming in yet, it shows our logo and Waiting for the game.
+- Fixed the second PC freezing with a black box when you pressed Start receiving.
+- If the PCs can't find each other after about 20 seconds, both PCs now show what usually fixes it, with the address box tucked away inside.
+- You can send your main PC mic too, and it gets its own track in recordings.
+- The overlay safety note shows once as a popup instead of staying on the main PC's screen.
+- Start sending no longer shrinks the window. Press Small window if you want it smaller.
+- The sound list shows every open app and remembers what you ticked.
+- The second PC tabs have more room, and options you rarely need are behind More.
+- New sharper guide pictures with the button to press marked in pink.
+
 ## v1.0.1
 
 - All the text in the app, the guide and the docs got rewritten so it reads like we'd tell you in a ticket.

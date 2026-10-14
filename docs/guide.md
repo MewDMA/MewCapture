@@ -14,39 +14,39 @@ Download MewCapture-Setup from the MewCapture releases page and install it on bo
 
 ### Step 2: Press Start (second PC)
 
-Press Start on the Second PC screen. The projector window opens and the PC waits for the main PC, just keep the projector open (it can sit behind other windows).
+Press Start receiving on the Second PC screen and this PC waits for the main PC.
 
 ![Press Start](screenshots/second-connect.png)
 
-### Step 3: Find the Second PC (main PC)
+### Step 3: Pick your overlay window (second PC)
+
+Open your overlay on this PC and press Pick your overlay window on the Second PC screen. It works before and after Start. We find its background (usually black) and how much to remove for you, and the preview shows how it looks over the game with the slider under it if you want to change it.
+
+![Pick your overlay window](screenshots/overlay-pick.png)
+
+### Step 4: Find the Second PC (main PC)
 
 Your second PC shows up on the Main PC screen with a 4-digit code. Wi-Fi, Ethernet or both works fine as long as both PCs are on the same router.
 
 ![Find the Second PC](screenshots/main-pairing.png)
 
-### Step 4: Connect (second PC)
+### Step 5: Connect (second PC)
 
 The second PC shows Found with the main PC's name. Check it shows the same code and press Connect, and from then on the two PCs connect on their own.
 
 ![Connect](screenshots/pair.png)
 
-### Step 5: Pick what to send and press Start (main PC)
+### Step 6: Pick what to send and press Start (main PC)
 
 Pick Screen (works with every game) or your game window, tick the apps you want to hear like the game and Discord, and press Start sending.
 
 ![Pick what to send and press Start](screenshots/main-full.png)
 
-### Step 6: That's all on the main PC (main PC)
+### Step 7: That's all on the main PC (main PC)
 
-MewCapture shrinks to a small window that shows how little it uses, and you can close it since it keeps running in the tray. We left out a preview on the main PC on purpose so it stays light.
+MewCapture shows how little it uses while it sends. You can close it, it keeps running in the tray, or press Small window. We left out a preview on the main PC on purpose so it stays light.
 
 ![That's all on the main PC](screenshots/main-compact.png)
-
-### Step 7: Add your overlay (second PC)
-
-In Scenes add the Overlay source and pick your overlay's window. We find its background (usually black) and how much to remove for you, and the preview under the slider shows how it looks.
-
-![Add your overlay](screenshots/overlay-pick.png)
 
 ### Step 8: Set up your scenes (second PC)
 
@@ -96,7 +96,7 @@ If a PC has no spare Ethernet port, a USB to Ethernet adapter works fine. Plug i
 
 The easiest way is to press Set up OBS for me in Output, then pick Scene Collection and MewCapture in OBS. It already has the projector and its sound in it.
 
-To do it yourself, add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. Turn on Projector fullscreen in Output if you want it to fill a screen.
+To do it yourself, turn on Using OBS? Open the projector window in Output, then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
 
 For the sound, go to Audio and pick For OBS under Game Sound in MewCapture, then add an Application Audio Capture in OBS and pick the same MewCapture Projector window. Turn off Also play on my speakers if you don't want to hear it on this PC.
 
@@ -150,4 +150,4 @@ Drag How much gets removed. If your overlay lets you pick its background color, 
 That's the network, so use a cable or pick Smooth as the quality on the main PC. MewCapture also lowers the quality for you when packets get lost.
 
 **How do I get it in OBS?**<br>
-Add a Window Capture of MewCapture Projector. For the sound pick For OBS under Game Sound, then add an Application Audio Capture of the same window. You can also skip OBS and just press Record or Go live.
+Turn on Using OBS? Open the projector window in Output, then add a Window Capture of MewCapture Projector. For the sound pick For OBS under Game Sound, then add an Application Audio Capture of the same window. You can also skip OBS and just press Record or Go live.
