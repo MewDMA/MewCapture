@@ -2,6 +2,16 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.3
+
+- The old overlay warning is gone, it also went off for things like Snipping Tool. The red warning now only shows when the second PC's output comes back to the main PC: MewCapture's output or the projector on a PC with an anti-cheat, or OBS on the main PC with the projector, NDI or a stream from the second PC in it. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC.
+- Sound categories: put your apps into Game, Communication, Music, Browser, Other or your own. For each one pick if it plays on the main PC or the second PC and if recordings keep it on its own track. MewCapture remembers it.
+- Small window turns into Big window, so you can get back, and Stop sending brings the normal size back too.
+- Switch to main PC or second PC is a big button at the top of Updates and About.
+- Home has the same four cards in one line, Guides always included.
+- Something's Wrong has Check again at the top and Copy the summary above the summary.
+- Dropdowns look like the rest of the app, and the main PC lost its More info bits.
+
 ## v1.0.2
 
 - On first launch MewCapture asks if this is your main PC or your second PC, and Get Started only shows the steps for that PC. You can switch it later in Updates and About.

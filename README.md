@@ -35,7 +35,7 @@ The game goes directly from the screen into your graphics card's video encoder a
 <td valign="top">
 
 **Your overlay, safely**<br>
-Your overlay only ever runs on the second PC and we remove its background for you. If MewCapture's output, the projector or OBS ends up on the main PC, you get a red warning
+Your overlay only ever runs on the second PC and we remove its background for you. If the second PC's output comes back to the main PC, like the projector or OBS with the overlay in it, you get a red warning
 
 </td>
 <td valign="top">

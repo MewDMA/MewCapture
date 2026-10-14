@@ -82,7 +82,7 @@ The main PC only sends the game, and everything else like scenes, the overlay, y
 
 Some people try to save the second PC some work by sending the overlay back to the main PC, or by running the projector or OBS on the main PC and putting the game under the overlay there. That puts your overlay on the main PC's screen, right where anti-cheats look.
 
-So MewCapture shows a red warning when its output or the projector runs on a PC with an anti-cheat, and when OBS or another streaming app runs on your main PC. Close it there and record or stream on the second PC.
+So MewCapture shows a red warning when its output or the projector runs on a PC with an anti-cheat, or when OBS on your main PC has the MewCapture projector, an NDI source or a stream from the second PC in its scenes. OBS on the main PC on its own is fine, the warning is only for the second PC's output coming back.
 
 ![The main PC only plays and sends the game](screenshots/safety.svg)
 
