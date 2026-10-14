@@ -1,0 +1,12 @@
+Copyright (c) 2026 MewDMA. All rights reserved.
+
+MewCapture, its installer, its source code, its images and its documentation belong to MewDMA.
+You may download and use the released installer for your own setup. You may not copy,
+modify, redistribute, sell, sublicense or reverse engineer MewCapture or any part of it
+without written permission from MewDMA.
+
+Third-party tools that MewCapture bundles (such as FFmpeg, under the LGPL 2.1) keep their
+own licenses.
+
+MewCapture is provided as is, without any warranty. MewDMA is not liable for any damage
+that comes from using it.

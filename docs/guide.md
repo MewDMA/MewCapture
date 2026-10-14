@@ -1,0 +1,153 @@
+# MewCapture guide
+
+Made from `app/src/guide-data.ts`, the same steps and pictures as the Guide screen in the app. Edit that file, then run `node scripts/guide-md.mjs` in `app/`.
+
+> **Never run your overlay on the main PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so your overlay only ever runs on the second PC and MewCapture puts it on the video there. If we see something on the main PC that looks like an overlay we warn you in red, so close it right away. MewCapture only captures the screen like Discord does and never touches the game.**
+
+## Step by step
+
+### Step 1: Install MewCapture (both PCs)
+
+Download MewCapture-Setup from the MewCapture releases page and install it on both PCs, then open it and pick which PC it is. It remembers that for next time.
+
+![Install MewCapture](screenshots/home.png)
+
+### Step 2: Press Start (second PC)
+
+Press Start on the Second PC screen. The projector window opens and the PC waits for the main PC, just keep the projector open (it can sit behind other windows).
+
+![Press Start](screenshots/second-connect.png)
+
+### Step 3: Find the Second PC (main PC)
+
+Your second PC shows up on the Main PC screen with a 4-digit code. Wi-Fi, Ethernet or both works fine as long as both PCs are on the same router.
+
+![Find the Second PC](screenshots/main-pairing.png)
+
+### Step 4: Connect (second PC)
+
+The second PC shows Found with the main PC's name. Check it shows the same code and press Connect, and from then on the two PCs connect on their own.
+
+![Connect](screenshots/pair.png)
+
+### Step 5: Pick what to send and press Start (main PC)
+
+Pick Screen (works with every game) or your game window, tick the apps you want to hear like the game and Discord, and press Start sending.
+
+![Pick what to send and press Start](screenshots/main-full.png)
+
+### Step 6: That's all on the main PC (main PC)
+
+MewCapture shrinks to a small window that shows how little it uses, and you can close it since it keeps running in the tray. We left out a preview on the main PC on purpose so it stays light.
+
+![That's all on the main PC](screenshots/main-compact.png)
+
+### Step 7: Add your overlay (second PC)
+
+In Scenes add the Overlay source and pick your overlay's window. We find its background (usually black) and how much to remove for you, and the preview under the slider shows how it looks.
+
+![Add your overlay](screenshots/overlay-pick.png)
+
+### Step 8: Set up your scenes (second PC)
+
+Add your webcam (you can blur or remove its background), images, text, a countdown, a browser source for alerts or your keys and mouse. Drag things to move them and they snap to the guides, arrow keys move them a bit and Ctrl+Z undoes, right-click for more.
+
+![Set up your scenes](screenshots/scenes.png)
+
+### Step 9: Set the sound (second PC)
+
+In Audio you set each volume with the meters, mute what you don't want, turn on your mic or push to talk and pick where the game sound goes, into MewCapture's recording or out for OBS.
+
+![Set the sound](screenshots/mixer.png)
+
+### Step 10: Pick a preset and go (second PC)
+
+In Output pick a preset, then press Record or Go live. You can go live on Twitch, YouTube and Kick at the same time, or press Set up OBS for me if you'd rather use OBS.
+
+![Pick a preset and go](screenshots/output.png)
+
+### Step 11: Clip That (both PCs)
+
+Press the clip hotkey on either PC to save the last 30 seconds to 2 minutes, with the overlay or clean (just the game, to show friends). You can trim it and send a clean clip to the main PC in one click.
+
+![Clip That](screenshots/clips.png)
+
+## The overlay never goes on the main PC
+
+Never run your overlay on the main PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so your overlay only ever runs on the second PC and MewCapture puts it on the video there. If we see something on the main PC that looks like an overlay we warn you in red, so close it right away. MewCapture only captures the screen like Discord does and never touches the game.
+
+MewCapture only captures the screen the same way Discord streaming does, with Windows Graphics Capture or DXGI desktop duplication. It never injects into or hooks the game, never puts a DLL in it and never reads its memory, which is also why there's no OBS style game capture hook.
+
+The main PC only sends the game, and everything else like scenes, the overlay, your webcam, clips, recording and streaming happens on the second PC.
+
+![The overlay never goes on the main PC](screenshots/safety.svg)
+
+## Direct cable, the lightest setup
+
+For the least delay and the least work for the main PC, plug a normal Ethernet cable from the main PC directly into the second PC. Any Ethernet cable works fine, no need for a special crossover one.
+
+After about a minute Windows gives both ends an address that starts with 169.254. MewCapture finds the second PC over that cable and uses it, and shows Direct cable when it does. Your internet keeps going through your other network port or Wi-Fi.
+
+If a PC has no spare Ethernet port, a USB to Ethernet adapter works fine. Plug it into the PC that needs the extra port, usually the second PC since the main PC's own port is often already used for the internet, and get a USB 3 one with 1 Gbps or more.
+
+![Direct cable, the lightest setup](screenshots/direct-cable.svg)
+
+## Using OBS on the second PC
+
+The easiest way is to press Set up OBS for me in Output, then pick Scene Collection and MewCapture in OBS. It already has the projector and its sound in it.
+
+To do it yourself, add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. Turn on Projector fullscreen in Output if you want it to fill a screen.
+
+For the sound, go to Audio and pick For OBS under Game Sound in MewCapture, then add an Application Audio Capture in OBS and pick the same MewCapture Projector window. Turn off Also play on my speakers if you don't want to hear it on this PC.
+
+If Windows on your PC can't do that without playing it, we tell you and play the sound on your speakers too so OBS still gets it, then you can just mute your speakers in Windows.
+
+Add your mic and browser sources in OBS like you normally would, or use MewCapture's own Record and Go live since those already have them.
+
+![Using OBS on the second PC](screenshots/game-sound.png)
+
+## When the PCs can't find each other
+
+Press Start on the second PC first and make sure both PCs are on the same router. Wi-Fi, Ethernet or a mix works fine, mesh Wi-Fi too.
+
+A guest network, or a router setting called AP isolation or client isolation, keeps devices apart. Put both PCs on the main network, or turn that setting off in your router.
+
+A VPN can hide your home network. Turn it off, or allow the local network (LAN) in its settings.
+
+On the second PC, Connect and then Network shows what might be blocking it, with a Fix it button when we can fix it for you. If nothing helps, use a cable between the two PCs.
+
+Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutter, and we lower the quality when that happens.
+
+![When the PCs can't find each other](screenshots/network.png)
+
+## Questions
+
+**What can the hotkeys do?**<br>
+Clip That, a clean clip, switching scenes, push to talk and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
+
+**Can I run my overlay on the main PC?**<br>
+No, never. Anti-cheats screenshot the main PC and scan it, also with AI, for things like ESP, so the overlay only runs on the second PC.
+
+**Do I need a capture card?**<br>
+No, the main PC sends the game over your network or a cable and the second PC puts your overlay and scenes on top.
+
+**Does it cost fps on the main PC?**<br>
+Very little, it goes directly from the screen into your graphics card's video encoder (NVENC, AMF or QuickSync), which is a separate part from the one that runs your game, and it runs at low priority. The Main PC screen shows exactly how much it uses.
+
+**Is it safe with anti-cheat?**<br>
+MewCapture only captures the screen like Discord streaming does. It never injects into or hooks the game, never puts a DLL in it and never reads its memory. Your overlay must never be shown on the main PC.
+
+**What's the best connection?**<br>
+A direct Ethernet cable between the two PCs. If a PC has no spare port, a USB to Ethernet adapter works, usually on the second PC. Next best is both PCs on the router with cables.
+
+**The game is black or nothing shows**<br>
+Use Screen instead of Game window, since Game window needs the game in borderless or windowed mode.
+
+**Parts of my overlay disappear, or there's a dark border**<br>
+Drag How much gets removed. If your overlay lets you pick its background color, set it to pure green and press Detect again.
+
+**It stutters or has blocky bits**<br>
+That's the network, so use a cable or pick Smooth as the quality on the main PC. MewCapture also lowers the quality for you when packets get lost.
+
+**How do I get it in OBS?**<br>
+Add a Window Capture of MewCapture Projector. For the sound pick For OBS under Game Sound, then add an Application Audio Capture of the same window. You can also skip OBS and just press Record or Go live.
