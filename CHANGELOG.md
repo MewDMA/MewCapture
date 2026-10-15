@@ -2,6 +2,13 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.5
+
+- Something's Wrong has the Fix it button for the firewall again, right under the problem.
+- The summary in Something's Wrong is a plain text block you can select, and Copy the summary is its own button that says Copied when it's on your clipboard.
+- Every Copy button works the same way now and never selects or moves the text next to it.
+- The second PC no longer shows a delay in milliseconds, since that number only measured a tiny ping between the PCs. It says when there's a small network delay or when the network is slow.
+
 ## v1.0.4
 
 - Start guide on Home: pick main PC or second PC and it walks you through the setup, picking the encoder, quality, scenes and sound for you.

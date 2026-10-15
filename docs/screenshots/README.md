@@ -1,6 +1,6 @@
 # MewCapture screenshots
 
-Real screenshots of the MewCapture app for mewdma.net and its Learn guides. Each one is 1600x1000 (16:10) PNG. Taken on **MewCapture 1.0.4**, except that capture-network-fix.png shows the Fix it button in Something's Wrong, which comes with the next update.
+Real screenshots of the MewCapture app for mewdma.net and its Learn guides. Each one is 1600x1000 (16:10) PNG. Taken on **MewCapture 1.0.5**.
 
 The app ran with placeholder data: the PCs are called MAIN-PC and SECOND-PC, the addresses are 192.168.0.x, the folder is C:\Users\you, and the game and overlay pictures are placeholders. No stream keys, names, emails or tokens are in any of them.
 
