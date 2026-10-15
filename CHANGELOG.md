@@ -4,7 +4,8 @@ All changes to MewCapture, newest first.
 
 ## v1.0.6
 
-- No more delay or ping numbers anywhere, on the Second PC, in the projector stats or in the ticket summary. They only measured a tiny ping between the PCs and didn't say anything useful about your stream.
+- The Second PC just says it's getting the game, without numbers like fps, HEVC, Mbps or a delay next to it.
+- No more delay or ping numbers in the projector stats or the ticket summary either, they only measured a tiny ping between the PCs.
 
 ## v1.0.5
 
