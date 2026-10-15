@@ -2,12 +2,16 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.6
+
+- No more delay or ping numbers anywhere, on the Second PC, in the projector stats or in the ticket summary. They only measured a tiny ping between the PCs and didn't say anything useful about your stream.
+
 ## v1.0.5
 
 - Something's Wrong has the Fix it button for the firewall again, right under the problem.
 - The summary in Something's Wrong is a plain text block you can select, and Copy the summary is its own button that says Copied when it's on your clipboard.
 - Every Copy button works the same way now and never selects or moves the text next to it.
-- The second PC no longer shows a delay in milliseconds, since that number only measured a tiny ping between the PCs. It says when there's a small network delay or when the network is slow.
+- The second PC no longer shows a delay in milliseconds, since that number only measured a tiny ping between the PCs and wasn't the delay you see.
 
 ## v1.0.4
 
