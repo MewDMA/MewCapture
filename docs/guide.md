@@ -26,19 +26,19 @@ Open your overlay on this PC and press Pick your overlay window on the Second PC
 
 ### Step 4: Find the Second PC (main PC)
 
-Your second PC shows up on the Main PC screen with a 4-digit code. Wi-Fi, Ethernet or both works fine as long as both PCs are on the same router.
+Your second PC shows up on the Main PC screen with a 4-digit code. Both PCs have to be on the same router (Wi-Fi, Ethernet or both is fine, not a guest network), or joined with one direct cable.
 
 ![Find the Second PC](screenshots/main-pairing.png)
 
 ### Step 5: Connect (second PC)
 
-The second PC shows Found with the main PC's name. Check it shows the same code and press Connect, and from then on the two PCs connect on their own.
+The second PC shows Found with the main PC's name. Check it shows the same code and press Connect. Next time the second PC shows the main PC as Connected as soon as both are open.
 
 ![Connect](screenshots/pair.png)
 
 ### Step 6: Pick what to send and press Start (main PC)
 
-Pick Screen (works with every game) or your game window, tick the apps you want to hear like the game and Discord, and press Start sending.
+Pick Whole screen and which screen (works with every game), or One window and your game's window. Tick the apps you want to hear like the game and Discord, and press Start sending. You can also press Start sending on the main PC from the second PC while MewCapture is open on both.
 
 ![Pick what to send and press Start](screenshots/main-full.png)
 
@@ -56,7 +56,7 @@ Add your webcam (you can blur or remove its background), images, text, a countdo
 
 ### Step 9: Set the sound (second PC)
 
-In Audio you set each volume with the meters, mute what you don't want, rename anything and pick if recordings keep it in the mix, on its own track or in its own file. Add a source adds the sound of any app on this PC, and the mic comes from the main PC with Send my mic too.
+In Audio you set each volume with the meters, mute what you don't want and rename anything. Own track and file keeps a source apart in the recording and also saves it as its own audio file, ready for editing. Add a source adds the sound of any app on this PC, Listen to the recording lets you hear what the recording gets, and the mic comes from the main PC with Send my mic too.
 
 ![Set the sound](screenshots/mixer.png)
 
@@ -125,7 +125,7 @@ Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutte
 ## Questions
 
 **What can the hotkeys do?**<br>
-Clip That, a clean clip, switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
+Clip That (with the overlay or clean), switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
 
 **Can I run my overlay on the main PC?**<br>
 No, never. Anti-cheats screenshot the main PC and scan it, also with AI, for things like ESP, so the overlay only runs on the second PC.
@@ -143,7 +143,7 @@ MewCapture only captures the screen like Discord streaming does. It never inject
 A direct Ethernet cable between the two PCs. If a PC has no spare port, a USB to Ethernet adapter works, usually on the second PC. Next best is both PCs on the router with cables.
 
 **The game is black or nothing shows**<br>
-Use Screen instead of Game window, since Game window needs the game in borderless or windowed mode.
+Use Whole screen instead of One window, since One window needs the game in borderless or windowed mode.
 
 **Parts of my overlay disappear, or there's a dark border**<br>
 Drag How much gets removed. If your overlay lets you pick its background color, set it to pure green and press Detect again.

@@ -2,6 +2,21 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.7
+
+- Recording works again. It said MC-205 and saved nothing because the encoder check and the recording needed the projector to keep changing, and a still picture (waiting for the game, a paused game) stopped both. Clip That had the same cause and saves clips again.
+- The Scenes preview is the live game now, smooth and sharp, instead of a still picture a few times a second.
+- Picking a preset selects it right away with a check mark, and the confirmation stays put instead of jumping.
+- The mixer holds its layout in a small window, and own track now also saves that source as its own file.
+- Listen to the recording: hear exactly what your recording gets.
+- The main PC asks plainly what to send: the whole screen (and which one) or one window.
+- The second PC can start sending on the main PC when MewCapture is open there.
+- Clearer connection help: both PCs on the same router or a direct cable, in the Start guide too, and the PC list just says Connected or Not connected.
+- Output shows how many Mbps and GB per hour your size, fps and quality add up to.
+- Click any guide picture to see it big.
+- MewCapture opens at its normal size again after using Small window, the main PC stays on Balanced unless you change it, and both clip buttons say Clip That.
+- Removed things that confused people: the speakers option in the mixer and the anti-cheat line in Something's Wrong.
+
 ## v1.0.6
 
 - The Second PC just says it's getting the game and at how many fps, without HEVC, Mbps or a delay next to it.
