@@ -6,7 +6,13 @@ All changes to MewCapture, newest first.
 
 - MewCapture looks like mewdma.net now: a dark space background, violet and pink accents, Space Grotesk headings and Inter for everything else, without the glows. Everything works the same as before, every MC error code too.
 - Sound only: the main PC can send just the sound you pick, no picture. Pick Sound only under What to Send.
-- The second PC shows Getting the sound and puts it in the mixer like always. Record it on its own with Sound only, no picture in Output, which saves an .m4a, or stream your scenes with that sound under them.
+- The second PC shows Getting the sound and puts it in the mixer like always. Start recording saves an .m4a with just the sound by itself, or stream your scenes with that sound under them.
+- Simpler, one switch for each thing:
+  - Hear it on this PC (in Audio) is the only switch for hearing the sound on the second PC, Sound only too. It replaces Listen to the recording and the speakers switches.
+  - Using OBS is one switch in Output. It opens the projector and sends the sound to OBS, no separate sound switch.
+  - Own track is picked only in the second PC's mixer, not on the main PC too.
+  - Your overlay is set up only in Your Overlay at the top. Scenes points there instead of having its own copy, and the background color moved to its More options.
+  - The Get Started list on Home is gone, the Start guide does that job.
 
 ## v1.0.7
 

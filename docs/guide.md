@@ -56,7 +56,7 @@ Add your webcam (you can blur or remove its background), images, text, a countdo
 
 ### Step 9: Set the sound (second PC)
 
-In Audio you set each volume with the meters, mute what you don't want and rename anything. Own track and file keeps a source apart in the recording and also saves it as its own audio file, ready for editing. Add a source adds the sound of any app on this PC, Listen to the recording lets you hear what the recording gets, and the mic comes from the main PC with Send my mic too.
+In Audio you set each volume with the meters, mute what you don't want and rename anything. Own track and file keeps a source apart in the recording and also saves it as its own audio file, ready for editing. Add a source adds the sound of any app on this PC, Hear it on this PC plays the sound here (Sound only too), and the mic comes from the main PC with Send my mic too.
 
 ![Set the sound](screenshots/mixer.png)
 
@@ -102,7 +102,7 @@ The easiest way is to press Set up OBS for me in Output, then pick Scene Collect
 
 To do it yourself, turn on Using OBS? Open the projector window in Output, then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. The projector always opens fullscreen. Hover near the top to minimize it so it's not blocking your screen, OBS keeps getting it. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
 
-For the sound, turn on Send the sound to OBS in Output, then add a Media Source in OBS, untick Local File and put udp://127.0.0.1:47811 as the input. Set up OBS for me adds it for you. Turn off Also play the sound on this PC's speakers if you only want it in OBS.
+For the sound, turn on Using OBS in Output, then add a Media Source in OBS, untick Local File and put udp://127.0.0.1:47811 as the input. Set up OBS for me adds it for you. Turn off Hear it on this PC in Audio if you only want it in OBS.
 
 Add your browser sources in OBS like you normally would. The main PC mic comes with the sound when Send my mic too is on there.
 
@@ -125,7 +125,7 @@ Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutte
 ## Questions
 
 **Can I send just the sound?**<br>
-Yes. Pick Sound only under What to Send on the main PC and tick the apps you want. The second PC shows Getting the sound and puts it in the mixer like always. Record it on its own with Sound only, no picture in Output (that saves an .m4a), or stream your scenes with that sound under them.
+Yes. Pick Sound only under What to Send on the main PC and tick the apps you want. The second PC shows Getting the sound and puts it in the mixer like always. Press Start recording and it saves an .m4a with just the sound, or stream your scenes with that sound under them.
 
 **What can the hotkeys do?**<br>
 Clip That (with the overlay or clean), switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.

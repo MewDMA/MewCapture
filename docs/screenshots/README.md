@@ -37,7 +37,7 @@ The app ran with placeholder data: the PCs are called MAIN-PC and SECOND-PC, the
 | screen-main-pc-sound-only.png | Main PC with Sound only picked, and the apps whose sound goes along. |
 | screen-second-pc.png | Second PC: getting the game, Your Overlay and the Connect tab. |
 | screen-second-scenes.png | Scenes: the live preview with your sources on it. |
-| screen-second-audio.png | Audio: the mixer and Listen to the recording. |
+| screen-second-audio.png | Audio: the mixer and Hear it on this PC. |
 | screen-second-output.png | Output: presets, size and quality, Start recording with Sound only, and Stream. |
 | screen-second-clips.png | Clips: Clip That with the overlay and clean, and your clips. |
 | screen-second-chat.png | Chat: Twitch, YouTube and Kick, pop out or dock. |
