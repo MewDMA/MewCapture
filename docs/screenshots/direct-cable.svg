@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="Inter, Segoe UI, sans-serif">
   <defs>
-    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff8fb8"/></linearGradient>
     <radialGradient id="bg" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#1d1730"/><stop offset="1" stop-color="#08080d"/></radialGradient>
   </defs>
   <rect width="960" height="360" rx="24" fill="url(#bg)"/>
@@ -9,7 +9,7 @@
     <rect x="72" y="60" width="150" height="210" rx="16" fill="#10101a" stroke="#1e1d2e" stroke-width="2"/>
     <rect x="96" y="90" width="102" height="10" rx="5" fill="#2a2340"/>
     <rect x="96" y="112" width="102" height="10" rx="5" fill="#2a2340"/>
-    <rect x="176" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#a78bfa" stroke-width="2.5"/>
+    <rect x="176" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#7c5cff" stroke-width="2.5"/>
     <text x="147" y="300" fill="#e7e7ee" font-size="20" font-weight="700" text-anchor="middle">Main PC</text>
     <text x="147" y="326" fill="#a5a3b8" font-size="15" text-anchor="middle">spare network port</text>
   </g>
@@ -17,7 +17,7 @@
     <rect x="738" y="60" width="150" height="210" rx="16" fill="#10101a" stroke="#1e1d2e" stroke-width="2"/>
     <rect x="762" y="90" width="102" height="10" rx="5" fill="#2a2340"/>
     <rect x="762" y="112" width="102" height="10" rx="5" fill="#2a2340"/>
-    <rect x="754" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#f472b6" stroke-width="2.5"/>
+    <rect x="754" y="214" width="30" height="22" rx="4" fill="#08080d" stroke="#ff8fb8" stroke-width="2.5"/>
     <text x="813" y="300" fill="#e7e7ee" font-size="20" font-weight="700" text-anchor="middle">Second PC</text>
     <text x="813" y="326" fill="#a5a3b8" font-size="15" text-anchor="middle">spare network port</text>
   </g>

@@ -2,6 +2,12 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.8
+
+- MewCapture looks like mewdma.net now: a dark space background, violet and pink accents, Space Grotesk headings and Inter for everything else, without the glows. Everything works the same as before, every MC error code too.
+- Sound only: the main PC can send just the sound you pick, no picture. Pick Sound only under What to Send.
+- The second PC shows Getting the sound and puts it in the mixer like always. Record it on its own with Sound only, no picture in Output, which saves an .m4a, or stream your scenes with that sound under them.
+
 ## v1.0.7
 
 - Recording works again. It said MC-205 and saved nothing because the encoder check and the recording needed the projector to keep changing, and a still picture (waiting for the game, a paused game) stopped both. Clip That had the same cause and saves clips again.

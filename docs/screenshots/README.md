@@ -1,6 +1,6 @@
 # MewCapture screenshots
 
-Real screenshots of the MewCapture app for mewdma.net and its Learn guides. Each one is 1600x1000 (16:10) PNG. Taken on **MewCapture 1.0.7**.
+Real screenshots of the MewCapture app for mewdma.net and its Learn guides. Each one is 1600x1000 (16:10) PNG. Taken on **MewCapture 1.0.8**.
 
 The app ran with placeholder data: the PCs are called MAIN-PC and SECOND-PC, the addresses are 192.168.0.x, the folder is C:\Users\you, and the game and overlay pictures are placeholders. No stream keys, names, emails or tokens are in any of them.
 
@@ -26,5 +26,23 @@ The app ran with placeholder data: the PCs are called MAIN-PC and SECOND-PC, the
 | capture-somethings-wrong.png | Something's Wrong: everything it checked and the summary you copy into a ticket. |
 | capture-obs-setup.png | Set up OBS for me, done: OBS now has a MewCapture scene collection with the projector and its sound. |
 | capture-red-warning.png | The red warnings when the second PC's output comes back to the main PC (MewCapture's output or OBS with the projector). |
+
+## Every main screen (1280x800)
+
+| File | What it shows |
+| --- | --- |
+| screen-home.png | Home: the safety note, Start guide and the four cards. |
+| screen-start-guide.png | Start guide: pick main PC or second PC. |
+| screen-main-pc.png | Main PC: Start sending, This PC, your second PC and what to send. |
+| screen-main-pc-sound-only.png | Main PC with Sound only picked, and the apps whose sound goes along. |
+| screen-second-pc.png | Second PC: getting the game, Your Overlay and the Connect tab. |
+| screen-second-scenes.png | Scenes: the live preview with your sources on it. |
+| screen-second-audio.png | Audio: the mixer and Listen to the recording. |
+| screen-second-output.png | Output: presets, size and quality, Start recording with Sound only, and Stream. |
+| screen-second-clips.png | Clips: Clip That with the overlay and clean, and your clips. |
+| screen-second-chat.png | Chat: Twitch, YouTube and Kick, pop out or dock. |
+| screen-somethings-wrong.png | Something's Wrong: what it checked and the ticket summary. |
+| screen-guides.png | Guides: every step with a picture. |
+| screen-updates-about.png | Updates and About: switch PC, updates and about. |
 
 Not here yet: capture-install-firstrun.png. It's Windows' own SmartScreen or firewall window, so it has to be taken on a Windows PC.

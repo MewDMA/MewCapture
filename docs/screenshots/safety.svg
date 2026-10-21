@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Inter, Segoe UI, sans-serif">
   <defs>
-    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff8fb8"/></linearGradient>
     <radialGradient id="bg" cx="0.2" cy="0" r="1"><stop offset="0" stop-color="#1d1730"/><stop offset="1" stop-color="#08080d"/></radialGradient>
   </defs>
   <rect width="960" height="400" rx="24" fill="url(#bg)"/>
@@ -15,7 +15,7 @@
   <text x="216" y="290" fill="#4ade80" font-size="16" font-weight="600" text-anchor="middle">✓ Only the game, no overlay</text>
   <!-- Arrow -->
   <path d="M408 190 H548" stroke="#c084fc" stroke-width="6" stroke-linecap="round"/>
-  <path d="M540 176 L560 190 L540 204Z" fill="#f472b6"/>
+  <path d="M540 176 L560 190 L540 204Z" fill="#ff8fb8"/>
   <text x="484" y="170" fill="#a5a3b8" font-size="15" text-anchor="middle">network or cable</text>
   <!-- Second PC -->
   <rect x="576" y="72" width="336" height="236" rx="18" fill="#10101a" stroke="url(#g)" stroke-width="2.5"/>
@@ -23,8 +23,8 @@
   <text x="912" y="58" fill="#a5a3b8" font-size="16" text-anchor="end">overlay runs here</text>
   <rect x="600" y="96" width="288" height="162" rx="10" fill="#1a1626"/>
   <path d="M600 230 L678 170 L738 210 L798 150 L888 232 L888 248 Q888 258 878 258 L610 258 Q600 258 600 248Z" fill="#2a2340"/>
-  <rect x="640" y="122" width="44" height="60" rx="4" fill="none" stroke="#f472b6" stroke-width="2.5"/>
-  <rect x="790" y="140" width="40" height="56" rx="4" fill="none" stroke="#f472b6" stroke-width="2.5"/>
+  <rect x="640" y="122" width="44" height="60" rx="4" fill="none" stroke="#ff8fb8" stroke-width="2.5"/>
+  <rect x="790" y="140" width="40" height="56" rx="4" fill="none" stroke="#ff8fb8" stroke-width="2.5"/>
   <text x="744" y="226" fill="#e7e7ee" font-size="20" font-weight="700" text-anchor="middle">Game + overlay</text>
   <text x="744" y="290" fill="#a5a3b8" font-size="16" font-weight="600" text-anchor="middle">Record, stream and clip</text>
   <!-- Rule -->

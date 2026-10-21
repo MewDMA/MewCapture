@@ -38,7 +38,7 @@ The second PC shows Found with the main PC's name. Check it shows the same code 
 
 ### Step 6: Pick what to send and press Start (main PC)
 
-Pick Whole screen and which screen (works with every game), or One window and your game's window. Tick the apps you want to hear like the game and Discord, and press Start sending. You can also press Start sending on the main PC from the second PC while MewCapture is open on both.
+Pick Whole screen and which screen (works with every game), One window and your game's window, or Sound only to send just the sound with no picture. Tick the apps you want to hear like the game and Discord, and press Start sending. You can also press Start sending on the main PC from the second PC while MewCapture is open on both.
 
 ![Pick what to send and press Start](screenshots/main-full.png)
 
@@ -123,6 +123,9 @@ Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutte
 ![When the PCs can't find each other](screenshots/network.png)
 
 ## Questions
+
+**Can I send just the sound?**<br>
+Yes. Pick Sound only under What to Send on the main PC and tick the apps you want. The second PC shows Getting the sound and puts it in the mixer like always. Record it on its own with Sound only, no picture in Output (that saves an .m4a), or stream your scenes with that sound under them.
 
 **What can the hotkeys do?**<br>
 Clip That (with the overlay or clean), switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
