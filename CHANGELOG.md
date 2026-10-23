@@ -5,8 +5,14 @@ All changes to MewCapture, newest first.
 ## v1.0.9
 
 - Streaming and Clip That stopped with MC-206 when a sound was set to Own track and file. That file is only for recordings and now only gets made while you record.
-- The stream and recordings show the whole game picture again, the same as the Scenes preview, instead of cutting the edges off when the game isn't exactly 16:9.
-- The projector's Minimize, Fullscreen and Close bar no longer gets stuck on the second PC's screen. It only shows over the projector when you have it on screen, and if Windows moves the hidden projector back on screen, MewCapture moves it away again.
+- Recording no longer fails over and over (MC-206) on PCs with two graphics chips: MewCapture tests the encoder the way the recording really uses it and picks one that works.
+- After an update the second PC played no sound until you turned on Hear it on this PC. It's on now.
+- Hear it on this PC no longer plays your main PC mic out loud or your second PC apps twice.
+- The projector shows the whole game picture like the Scenes preview, and Scenes now tells you the size of the picture coming from the main PC.
+- The projector's Minimize, Fullscreen and Close bar no longer gets stuck on the second PC's screen, and the hidden projector stays hidden at exactly your output size.
+- Test my connection no longer always picks Max, cable only. It stays on Balanced or lower unless the PCs share a direct cable.
+- Stop recording and Stop streaming stop again when nothing else is on.
+- A webcam with its background blurred or removed isn't squashed anymore, and own track files from a recording that restarted aren't overwritten.
 
 ## v1.0.8
 
