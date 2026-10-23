@@ -2,6 +2,12 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.9
+
+- Streaming and Clip That stopped with MC-206 when a sound was set to Own track and file. That file is only for recordings and now only gets made while you record.
+- The stream and recordings show the whole game picture again, the same as the Scenes preview, instead of cutting the edges off when the game isn't exactly 16:9.
+- The projector's Minimize, Fullscreen and Close bar no longer gets stuck on the second PC's screen. It only shows over the projector when you have it on screen, and if Windows moves the hidden projector back on screen, MewCapture moves it away again.
+
 ## v1.0.8
 
 - MewCapture looks like mewdma.net now: a dark space background, violet and pink accents, Space Grotesk headings and Inter for everything else, without the glows. Everything works the same as before, every MC error code too.
