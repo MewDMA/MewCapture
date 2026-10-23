@@ -2,6 +2,12 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.10
+
+- The picture was zoomed in on the top-left corner, in the projector, the Scenes preview, recordings and streams. The main PC shrank the screen with FFmpeg's graphics card scaler, which cut out a corner instead. The main PC now always sends the whole screen at its own size, so the Size option is gone, and the second PC no longer uses that scaler either.
+- MewCapture uses the same FFmpeg as 1.0.5 again. Every release picked up the newest FFmpeg build, and a newer one caused MC-206 and the zoom.
+- MC-206 now shows FFmpeg's real error instead of its last line, which only said nothing was saved.
+
 ## v1.0.9
 
 - Streaming and Clip That stopped with MC-206 when a sound was set to Own track and file. That file is only for recordings and now only gets made while you record.
