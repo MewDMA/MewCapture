@@ -2,6 +2,26 @@
 
 All changes to MewCapture, newest first.
 
+## v1.0.11
+
+- MewCapture looks like MewTools now, with the same sidebar, page titles, cards, buttons, folds, error boxes and dropdowns, and everything works with the keyboard. A short intro plays when the app starts, and you can switch it off in Updates and About.
+- Second PC: the tabs sit right under the status card, Record and Go live are on that card too, and Your overlay has its own Overlay tab. The Connect tab shows this PC's address.
+- Scenes: the stage and your sources sit side by side, each box on the stage shows what's in it, and Studio mode never edits the live scene by mistake. A duplicated scene no longer shares its sources with the original.
+- Recordings are never overwritten anymore. Changing a setting while recording carries on in a new file instead of wiping the one you had, and Stop finishes every file cleanly, the per-source .m4a files too, also when you quit from the tray or install an update.
+- When you record and stream at different settings, the recording now uses its own encoder and bitrate, and the MP4 files open in every player and editor.
+- A stream that drops connects again by itself and shows what went wrong instead of saying Live the whole time.
+- A new pairing needs Connect on both PCs once they show the same code, after that the two PCs sign what they send each other, and the main PC stops telling every network its PC name and apps. PCs you already paired keep working. You can forget a paired PC on both PCs, and Type the address yourself works now.
+- The main PC notices when the second PC goes away, and Start sending on the main PC from the second PC gets there every time and never starts hours later.
+- Game sound and One window follow the game when it restarts, and changes you make on the main PC while sending apply right away.
+- With All PC sound on, Discord isn't sent twice anymore, and per-game settings no longer undo changes you just made.
+- Hear it on this PC keeps working when you switch speakers.
+- Webcam Blur it and Remove it work now.
+- Trim plays clips from any folder, and Delete asks first.
+- The projector never goes fullscreen, so your recordings stay at your output size, and a projector you minimized stays minimized.
+- Opening MewCapture again brings back the copy that's already running.
+- Hotkeys only take keys that can't steal a key from your game, like F-keys or keys with Ctrl, Alt or Win, and never Windows shortcuts like Alt+Tab or Ctrl+C.
+- Auto update waits until you stop recording or streaming.
+
 ## v1.0.10
 
 - The picture was zoomed in on the top-left corner, in the projector, the Scenes preview, recordings and streams. The main PC shrank the screen with FFmpeg's graphics card scaler, which cut out a corner instead. The main PC now always sends the whole screen at its own size, so the Size option is gone, and the second PC no longer uses that scaler either.

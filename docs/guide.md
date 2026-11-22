@@ -1,6 +1,6 @@
 # MewCapture guide
 
-Made from `app/src/guide-data.ts`, the same steps and pictures as the Guide screen in the app. Edit that file, then run `node scripts/guide-md.mjs` in `app/`.
+Made from `app/src/guide-data.ts`, the same steps and pictures as the Guides screen in the app. Edit that file, then run `node scripts/guide-md.mjs` in `app/`.
 
 > **Your main PC is never the recording or streaming PC. Anti-cheats take screenshots of the main PC and scan them, also with AI, for things like ESP, so the overlay only ever runs on the second PC. Record, stream and use the projector or OBS there too, and never send the overlay or MewCapture's output back to the main PC to put your game under it. MewCapture warns you in red if it sees that.**
 
@@ -8,7 +8,7 @@ Made from `app/src/guide-data.ts`, the same steps and pictures as the Guide scre
 
 ### Step 1: Install MewCapture (both PCs)
 
-Download MewCapture-Setup from the MewCapture releases page and install it on both PCs, then open it and pick which PC it is. Start guide on Home walks you through the rest and picks good settings for you.
+Download MewCapture-Setup from the MewCapture releases page and install it on both PCs, then open it and pick which PC it is. The Start Guide walks you through the rest and picks good settings for you.
 
 ![Install MewCapture](screenshots/home.png)
 
@@ -20,7 +20,7 @@ Press Start receiving on the Second PC screen and this PC waits for the main PC.
 
 ### Step 3: Pick your overlay window (second PC)
 
-Open your overlay on this PC and press Pick your overlay window on the Second PC screen. It works before and after Start. We find its background (usually black) and how much to remove for you, and the preview shows how it looks over the game with the slider under it if you want to change it.
+Open your overlay on this PC and press Pick your overlay window in the Overlay tab of the Second PC screen, before or after Start receiving. We find its background (usually black) and how much to remove for you, and the preview shows how it looks over the game with the slider under it if you want to change it.
 
 ![Pick your overlay window](screenshots/overlay-pick.png)
 
@@ -30,15 +30,15 @@ Your second PC shows up on the Main PC screen with a 4-digit code. Both PCs have
 
 ![Find the Second PC](screenshots/main-pairing.png)
 
-### Step 5: Connect (second PC)
+### Step 5: Connect (both PCs)
 
-The second PC shows Found with the main PC's name. Check it shows the same code and press Connect. Next time the second PC shows the main PC as Connected as soon as both are open.
+The second PC shows that the main PC wants to connect, with its name and a code. Check it's the same code as on the main PC and press Connect there, then the main PC shows the second PC with that same code and you press Connect on the main PC too. From then on the two PCs connect by themselves as soon as both are open.
 
 ![Connect](screenshots/pair.png)
 
 ### Step 6: Pick what to send and press Start (main PC)
 
-Pick Whole screen and which screen (works with every game), One window and your game's window, or Sound only to send just the sound with no picture. Tick the apps you want to hear like the game and Discord, and press Start sending. You can also press Start sending on the main PC from the second PC while MewCapture is open on both.
+Pick Whole screen and which screen (works with every game), One window and your game's window, or Sound only to send just the sound with no picture. Tick the apps you want to hear like the game and Discord, and press Start sending. After the first time you can also start sending from the second PC, as long as MewCapture is open on both.
 
 ![Pick what to send and press Start](screenshots/main-full.png)
 
@@ -62,7 +62,7 @@ In Audio you set each volume with the meters, mute what you don't want and renam
 
 ### Step 10: Pick a preset and go (second PC)
 
-In Output pick a preset, then press Record or Go live. You can go live on Twitch, YouTube and Kick at the same time, or press Set up OBS for me if you'd rather use OBS.
+In Output pick a preset, then press Start recording or Go live. You can go live on Twitch, YouTube and Kick at the same time, or press Set up OBS for me if you'd rather use OBS.
 
 ![Pick a preset and go](screenshots/output.png)
 
@@ -100,9 +100,9 @@ If a PC has no spare Ethernet port, a USB to Ethernet adapter works fine. Plug i
 
 The easiest way is to press Set up OBS for me in Output, then pick Scene Collection and MewCapture in OBS. It already has the projector and its sound in it.
 
-To do it yourself, turn on Using OBS? Open the projector window in Output, then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. The projector always opens fullscreen. Hover near the top to minimize it so it's not blocking your screen, OBS keeps getting it. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
+To do it yourself, turn on Using OBS in Output, which opens the projector at your output size and sends the sound to OBS. Then add a Window Capture in OBS and pick [MewCapture.exe]: MewCapture Projector. Hover near the top of the projector to minimize it so it's not blocking your screen, OBS keeps getting it. You only need the projector for OBS, MewCapture's own recording, streaming and Clip That work without it.
 
-For the sound, turn on Using OBS in Output, then add a Media Source in OBS, untick Local File and put udp://127.0.0.1:47811 as the input. Set up OBS for me adds it for you. Turn off Hear it on this PC in Audio if you only want it in OBS.
+For the sound, add a Media Source in OBS, untick Local File and put udp://127.0.0.1:47811 as the input. Set up OBS for me adds it for you. Turn off Hear it on this PC in Audio if you only want it in OBS.
 
 Add your browser sources in OBS like you normally would. The main PC mic comes with the sound when Send my mic too is on there.
 
@@ -110,13 +110,13 @@ Add your browser sources in OBS like you normally would. The main PC mic comes w
 
 ## When the PCs can't find each other
 
-Press Start on the second PC first and make sure both PCs are on the same router. Wi-Fi, Ethernet or a mix works fine, mesh Wi-Fi too.
+Press Start receiving on the second PC first and make sure both PCs are on the same router. Wi-Fi, Ethernet or a mix works fine, mesh Wi-Fi too.
 
 A guest network, or a router setting called AP isolation or client isolation, keeps devices apart. Put both PCs on the main network, or turn that setting off in your router.
 
 A VPN can hide your home network. Turn it off, or allow the local network (LAN) in its settings.
 
-On the second PC, Connect and then Network shows what might be blocking it, with a Fix it button when we can fix it for you. If nothing helps, use a cable between the two PCs.
+On either PC, open Something's Wrong. It checks what might be blocking the other PC, like Windows Firewall or a VPN, and has a Fix it button when we can fix it for you. If nothing helps, use a cable between the two PCs.
 
 Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutter, and we lower the quality when that happens.
 
@@ -125,10 +125,10 @@ Use Ethernet for the main PC if you can. Wi-Fi works but drops show up as stutte
 ## Questions
 
 **Can I send just the sound?**<br>
-Yes. Pick Sound only under What to Send on the main PC and tick the apps you want. The second PC shows Getting the sound and puts it in the mixer like always. Press Start recording and it saves an .m4a with just the sound, or stream your scenes with that sound under them.
+Yes. Pick Sound only on the Main PC screen and tick the apps you want. The second PC shows Getting the sound and puts it in the mixer like always. Press Start recording and it saves an .m4a with just the sound, or stream your scenes with that sound under them.
 
 **What can the hotkeys do?**<br>
-Clip That (with the overlay or clean), switching scenes and showing or hiding the projector. Click a hotkey box and press the keys you want, they work on both PCs so you can clip while you play.
+Clip That (with the overlay or clean) and switching scenes work from both PCs, so you can clip while you play. Showing or hiding the projector only works on the second PC. Click a hotkey box and press the keys you want, and use an F key, the numpad or two of Ctrl, Alt and Shift with a letter or number so the game keeps its own keys, since Ctrl on its own is crouch in a lot of games.
 
 **Can I run my overlay on the main PC?**<br>
 No, never. Anti-cheats screenshot the main PC and scan it, also with AI, for things like ESP, so the overlay only runs on the second PC.
@@ -155,4 +155,4 @@ Drag How much gets removed. If your overlay lets you pick its background color, 
 That's the network, so use a cable or pick Smooth as the quality on the main PC. MewCapture also lowers the quality for you when packets get lost.
 
 **How do I get it in OBS?**<br>
-Press Set up OBS for me in Output. If OBS is closed we add a scene collection called MewCapture you pick under Scene Collection. If OBS is open with its WebSocket on, we add it straight away, unless you're live or recording. With the WebSocket off you restart OBS once. We never change your other scene collections, and if OBS isn't installed we link you to obsproject.com instead of installing it.
+Press Set up OBS for me in Output. If OBS is closed we add a scene collection called MewCapture you pick under Scene Collection. If OBS is open with its WebSocket on, we add it right away, unless you're live or recording. With the WebSocket off you just restart OBS. We never change your other scene collections, and if OBS isn't installed we link you to obsproject.com instead of installing it.

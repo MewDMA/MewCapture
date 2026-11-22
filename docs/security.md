@@ -1,6 +1,6 @@
 # MewCapture security
 
-MewCapture runs as admin on both PCs, because it adds a firewall rule so the other PC can reach it. Since it has that much access, we kept what it's allowed to do as small as we could. This page goes over how it captures the game, what goes over your network, how it runs FFmpeg and how updates get checked.
+MewCapture runs as admin on both PCs, because it adds firewall rules so the other PC can reach it. Since it has that much access, we kept what it's allowed to do as small as we could. This page goes over how it captures the game, what goes over your network, how it runs FFmpeg and how updates get checked.
 
 ## The game and anti-cheat
 
@@ -10,9 +10,9 @@ Your main PC is never the recording or streaming PC. Anti-cheats take screenshot
 
 ## Your network
 
-The two PCs only talk on your own network or a cable between them. The main PC sends the game on UDP port 47801, the PCs find each other on UDP 47800, and clips go back to the main PC on TCP 47802. The firewall rule MewCapture adds on the second PC only opens those three ports.
+The two PCs only talk on your own network or a cable between them. The main PC sends the game on UDP port 47801, the PCs find each other on UDP 47800, and clips go back to the main PC on TCP 47802. The firewall rules MewCapture adds on the second PC open those three ports, plus one for the app itself so Windows doesn't ask about it or block it. MewCapture only listens for the other PC on those three ports, and its connection to the projector window stays inside the PC.
 
-A main PC can only send hotkeys, the input overlay or clips once you pressed Connect on the second PC and checked both show the same code. The app remembers which PCs you connected and ignores the rest. The local connection between the app and its projector window uses a random key that changes every time the app starts, so other apps on the PC can't read it.
+A main PC can only send hotkeys, the input overlay or clips once you pressed Connect on both PCs and checked they show the same code. The app remembers which PCs you connected and ignores the rest. The local connection between the app and its projector window uses a random key that changes every time the app starts, so other apps on the PC can't read it.
 
 Stream keys stay on the second PC in the app's own settings. They only ever get sent to the streaming site you picked, and bug reports and the Something's Wrong summary never include them.
 
